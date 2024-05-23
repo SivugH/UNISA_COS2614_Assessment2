@@ -7,6 +7,10 @@ class clStoreItem : public clItem
 {
 public:
     clStoreItem();
+
+private:
+    QString getVendor();
+    void setVendor();
 };
 
 #endif // CLSTOREITEM_H

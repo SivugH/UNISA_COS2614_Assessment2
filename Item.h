@@ -9,6 +9,11 @@ class clItem : public QObject
 public:
     explicit clItem(QObject *parent = 0);
 
+private:
+    QString meID;
+    QString meName;
+    float mePrice;
+
 signals:
 
 public slots:
